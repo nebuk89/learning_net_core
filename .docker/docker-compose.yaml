@@ -3,5 +3,5 @@ services:
     backend:
         context: .
     image: mcr.microsoft.com/dotnet/sdk:5.0
-    ports: 
-        - "8000:80"
+    ports:
+      - 8080:80
